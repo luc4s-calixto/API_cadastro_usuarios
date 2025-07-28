@@ -38,7 +38,6 @@ API_CADASTRO_USUARIOS/
 
 ### ▶ Backend (API)
 
-```bash
 cd back
 npm install
 npx prisma generate             # Gera o Prisma Client
