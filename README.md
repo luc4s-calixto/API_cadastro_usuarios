@@ -6,23 +6,25 @@ Projeto Fullstack desenvolvido com base nos vídeos do canal **DevClub**, com fo
 
 ## 📁 Estrutura do Projeto
 
+```
 API_CADASTRO_USUARIOS/
-├── back/ # Backend (Node.js + Express + MongoDB + Prisma)
-│ ├── prisma/ # Configuração do Prisma com MongoDB
-│ ├── generated/ # Prisma Client
-│ ├── server.js # Servidor Express
-│ ├── .env # Variáveis de ambiente
-│ └── package.json # Dependências do backend
+├── back/                      # Backend (Node.js + Express + MongoDB + Prisma)
+│   ├── prisma/                # Configuração do Prisma com MongoDB
+│   ├── generated/             # Prisma Client
+│   ├── server.js              # Servidor Express
+│   ├── .env                   # Variáveis de ambiente
+│   └── package.json           # Dependências do backend
 │
-├── cadastro-usuarios/ # Frontend (React + Vite)
-│ ├── src/
-│ │ ├── pages/ # Páginas da aplicação
-│ │ ├── services/ # Conexão com a API
-│ │ └── main.jsx # Arquivo principal do React
-│ ├── index.html
-│ └── package.json # Dependências do frontend
+├── cadastro-usuarios/         # Frontend (React + Vite)
+│   ├── src/
+│   │   ├── pages/             # Páginas da aplicação
+│   │   ├── services/          # Conexão com a API
+│   │   └── main.jsx           # Arquivo principal do React
+│   ├── index.html
+│   └── package.json           # Dependências do frontend
 │
-└── README.md # Este arquivo
+└── README.md                  # Documentação
+```
 
 ---
 
@@ -38,21 +40,27 @@ API_CADASTRO_USUARIOS/
 
 ### ▶ Backend (API)
 
+```
 cd back
 npm install
 npx prisma generate             # Gera o Prisma Client
 npx prisma db push              # Envia o schema para o MongoDB
 npm run dev                     # Inicia o servidor (porta 3000)
+```
 
 
 🛠️ Arquivo .env:
+```
 DATABASE_URL="mongodb+srv://<usuario>:<senha>@<cluster>.mongodb.net/<nomeDoBanco>?retryWrites=true&w=majority"
+```
 
 Frontend (React + Vite)
 
+```
 cd cadastro-usuarios
 npm install
 npm run dev                    # Inicia o app (geralmente em http://localhost:5173)
+```
 
 🧰 Tecnologias utilizadas
 
