@@ -13,7 +13,7 @@ Projeto Fullstack desenvolvido com base nos vídeos do canal **DevClub**, com fo
 
   ***
 
-  ## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
   ```
   API_CADASTRO_USUARIOS/
@@ -37,7 +37,7 @@ Projeto Fullstack desenvolvido com base nos vídeos do canal **DevClub**, com fo
 
   ***
 
-  ## 🚀 Como executar o projeto
+## Como executar o projeto
 
   ### ⚙️ Pré-requisitos
 
@@ -73,7 +73,7 @@ Projeto Fullstack desenvolvido com base nos vídeos do canal **DevClub**, com fo
   DATABASE_URL="mongodb+srv://<usuario>:<senha>@<cluster>.mongodb.net/<nomeDoBanco>?retryWrites=true&w=majority"
   ```
 
-  ## 🧰 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 
   🔙 Backend
@@ -94,7 +94,7 @@ Projeto Fullstack desenvolvido com base nos vídeos do canal **DevClub**, com fo
 
   ***
 
-  📌 Funcionalidades
+## Funcionalidades
 
   - Criar usuários
   - Listar usuários
@@ -104,5 +104,5 @@ Projeto Fullstack desenvolvido com base nos vídeos do canal **DevClub**, com fo
 
   ***
 
-  🙋‍♂️ Autor
+## Autor
   Projeto desenvolvido por Lucas Calixto, com base no conteúdo do DevClub.
